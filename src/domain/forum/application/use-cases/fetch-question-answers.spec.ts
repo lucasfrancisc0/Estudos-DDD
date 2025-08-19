@@ -2,7 +2,7 @@ import { InMemoryAnswersRepository } from "test/repositories/in-memory-answers-r
 import { makeAnswer } from "test/factories/make-answer";
 import { UniqueEntityID } from "@/core/entities/unique-entity-id";
 import { InMemoryAnswerAttachmentsRepository } from "test/repositories/in-memory-answer-attachments-repository";
-import { FetchQuestionAnswersUseCase } from "./fecth-question-answers";
+import { FetchQuestionAnswersUseCase } from "./fetch-question-answers";
 
 let inMemoryAnswerAttachmentsRepository: InMemoryAnswerAttachmentsRepository;
 let inMemoryAnswersRepository: InMemoryAnswersRepository;
