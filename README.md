@@ -314,7 +314,6 @@ type Result<T> = Either<NotAllowedError | ResourceNotFoundError, T>;
 ## 📄 License
 
 This project is released under the **MIT License**.  
-See `LICENSE` (add one if you haven’t yet).
 
 ---
 
