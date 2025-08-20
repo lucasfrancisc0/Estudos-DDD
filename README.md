@@ -9,8 +9,6 @@
 A pragmatic, test-driven **DDD / Clean Architecture** implementation of a Q&A forum domain.  
 It focuses on **expressive domain models**, **use case orchestration**, **domain events**, and **in-memory adapters** to keep the project simple and highly readable.
 
-> ✔️ Ideal as a portfolio piece to demonstrate architecture, testing discipline, and domain modeling.
-
 ---
 
 ## ✨ Highlights
