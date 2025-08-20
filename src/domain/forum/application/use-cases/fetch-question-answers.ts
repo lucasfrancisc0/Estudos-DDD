@@ -1,7 +1,7 @@
 import { Either, left, right } from "@/core/either";
+import { ResourceNotFoundError } from "@/core/errors/errors/resource-not-found-error";
 import { Answer } from "../../enterprise/entities/answer";
 import { AnswersRepository } from "../repositories/answers-repository";
-import { ResourceNotFoundError } from "./errors/resource-not-found-error";
 
 interface FetchQuestionAnswersUseCaseRequest {
   questionId: string;

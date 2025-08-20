@@ -5,8 +5,8 @@ import { InMemoryQuestionsRepository } from "test/repositories/in-memory-questio
 import { makeQuestion } from "test/factories/make-question";
 import { InMemoryAnswerAttachmentsRepository } from "test/repositories/in-memory-answer-attachments-repository";
 import { InMemoryQuestionAttachmentsRepository } from "test/repositories/in-memory-question-attachments-repository";
+import { NotAllowedError } from "@/core/errors/errors/not-allowed-error";
 import { ChooseQuestionBestAnswerUseCase } from "./choose-question-best-answer";
-import { NotAllowedError } from "./errors/not-allowed-error";
 
 let inMemoryAnswerAttachmentsRepository: InMemoryAnswerAttachmentsRepository;
 let inMemoryQuestionAttachmentsRepository: InMemoryQuestionAttachmentsRepository;
